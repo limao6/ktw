@@ -1,0 +1,373 @@
+/**暗黑模式**/
+
+
+//颜色
+
+//基础色
+@color-dark-red-1     : #190808;
+@color-dark-red-2     : #330f0f;
+@color-dark-red-3     : #651f1f;
+@color-dark-red-4     : #982e2e;
+@color-dark-red-5     : #ca3e3e;
+@color-dark-red-6     : #fd4d4d;
+@color-dark-red-7     : #fd7171;
+@color-dark-red-8     : #fe9494;
+@color-dark-red-9     : #feb8b8;
+@color-dark-red-10    : #ffdbdb;
+@color-dark-orange-1  : #1a0b00;
+@color-dark-orange-2  : #331500;
+@color-dark-orange-3  : #662a00;
+@color-dark-orange-4  : #993f00;
+@color-dark-orange-5  : #cc5400;
+@color-dark-orange-6  : #ff6900;
+@color-dark-orange-7  : #ff8733;
+@color-dark-orange-8  : #ffa566;
+@color-dark-orange-9  : #ffc399;
+@color-dark-orange-10 : #ffe1cc;
+@color-dark-gold-1    : #1a1200;
+@color-dark-gold-2    : #332400;
+@color-dark-gold-3    : #664800;
+@color-dark-gold-4    : #996c00;
+@color-dark-gold-5    : #cc9000;
+@color-dark-gold-6    : #ffb400;
+@color-dark-gold-7    : #ffc333;
+@color-dark-gold-8    : #ffd266;
+@color-dark-gold-9    : #ffe199;
+@color-dark-gold-10   : #fff0cc;
+@color-dark-yellow-1  : #181500;
+@color-dark-yellow-2  : #302b00;
+@color-dark-yellow-3  : #605500;
+@color-dark-yellow-4  : #908000;
+@color-dark-yellow-5  : #c0aa00;
+@color-dark-yellow-6  : #f0d500;
+@color-dark-yellow-7  : #f3dd33;
+@color-dark-yellow-8  : #f6e666;
+@color-dark-yellow-9  : #f9ee99;
+@color-dark-yellow-10 : #fcf7cc;
+@color-dark-lime-1    : #101504;
+@color-dark-lime-2    : #202a07;
+@color-dark-lime-3    : #40540f;
+@color-dark-lime-4    : #617e16;
+@color-dark-lime-5    : #81a81e;
+@color-dark-lime-6    : #a1d225;
+@color-dark-lime-7    : #b4db51;
+@color-dark-lime-8    : #c7e47c;
+@color-dark-lime-9    : #d9eda8;
+@color-dark-lime-10   : #ecf6d3;
+@color-dark-aqua-1    : #0e1608;
+@color-dark-aqua-2    : #1b2d10;
+@color-dark-aqua-3    : #365920;
+@color-dark-aqua-4    : #518630;
+@color-dark-aqua-5    : #6cb240;
+@color-dark-aqua-6    : #87df50;
+@color-dark-aqua-7    : #9fe573;
+@color-dark-aqua-8    : #b7ec96;
+@color-dark-aqua-9    : #cff2b9;
+@color-dark-aqua-10   : #e7f9dc;
+@color-dark-green-1   : #071406;
+@color-dark-green-2   : #0d270b;
+@color-dark-green-3   : #1a4f16;
+@color-dark-green-4   : #277622;
+@color-dark-green-5   : #349e2d;
+@color-dark-green-6   : #41c538;
+@color-dark-green-7   : #67d160;
+@color-dark-green-8   : #8ddc88;
+@color-dark-green-9   : #b3e8af;
+@color-dark-green-10  : #d9f3d7;
+@color-dark-teal-1    : #07160e;
+@color-dark-teal-2    : #0e2b1c;
+@color-dark-teal-3    : #1d5639;
+@color-dark-teal-4    : #2b8255;
+@color-dark-teal-5    : #3aad72;
+@color-dark-teal-6    : #48d88e;
+@color-dark-teal-7    : #6de0a5;
+@color-dark-teal-8    : #91e8bb;
+@color-dark-teal-9    : #b6efd2;
+@color-dark-teal-10   : #daf7e8;
+@color-dark-cyan-1    : #011614;
+@color-dark-cyan-2    : #022b28;
+@color-dark-cyan-3    : #035650;
+@color-dark-cyan-4    : #058277;
+@color-dark-cyan-5    : #06ad9f;
+@color-dark-cyan-6    : #08d8c7;
+@color-dark-cyan-7    : #39e0d2;
+@color-dark-cyan-8    : #6be8dd;
+@color-dark-cyan-9    : #9cefe9;
+@color-dark-cyan-10   : #cef7f4;
+@color-dark-wathet-1  : #091318;
+@color-dark-wathet-2  : #122630;
+@color-dark-wathet-3  : #234d5f;
+@color-dark-wathet-4  : #35738f;
+@color-dark-wathet-5  : #469abe;
+@color-dark-wathet-6  : #58c0ee;
+@color-dark-wathet-7  : #79cdf1;
+@color-dark-wathet-8  : #9bd9f5;
+@color-dark-wathet-9  : #bce6f8;
+@color-dark-wathet-10 : #def2fc;
+@color-dark-blue-1    : #020d1a;
+@color-dark-blue-2    : #041b33;
+@color-dark-blue-3    : #083566;
+@color-dark-blue-4    : #0c5099;
+@color-dark-blue-5    : #106acc;
+@color-dark-blue-6    : #1485ff;
+@color-dark-blue-7    : #439dff;
+@color-dark-blue-8    : #72b6ff;
+@color-dark-blue-9    : #a1ceff;
+@color-dark-blue-10   : #d0e7ff;
+@color-dark-indigo-1  : #080917;
+@color-dark-indigo-2  : #11122e;
+@color-dark-indigo-3  : #22255c;
+@color-dark-indigo-4  : #32378b;
+@color-dark-indigo-5  : #434ab9;
+@color-dark-indigo-6  : #545ce7;
+@color-dark-indigo-7  : #767dec;
+@color-dark-indigo-8  : #989df1;
+@color-dark-indigo-9  : #bbbef5;
+@color-dark-indigo-10 : #dddefa;
+@color-dark-violet-1  : #0a0716;
+@color-dark-violet-2  : #130d2d;
+@color-dark-violet-3  : #271a59;
+@color-dark-violet-4  : #3a2886;
+@color-dark-violet-5  : #4e35b2;
+@color-dark-violet-6  : #6142df;
+@color-dark-violet-7  : #8168e5;
+@color-dark-violet-8  : #a08eec;
+@color-dark-violet-9  : #c0b3f2;
+@color-dark-violet-10 : #dfd9f9;
+@color-dark-purple-1  : #0e0416;
+@color-dark-purple-2  : #1d082b;
+@color-dark-purple-3  : #391056;
+@color-dark-purple-4  : #561782;
+@color-dark-purple-5  : #721fad;
+@color-dark-purple-6  : #8f27d8;
+@color-dark-purple-7  : #a552e0;
+@color-dark-purple-8  : #bc7de8;
+@color-dark-purple-9  : #d2a9ef;
+@color-dark-purple-10 : #e9d4f7;
+@color-dark-pink-1    : #160616;
+@color-dark-pink-2    : #2c0b2c;
+@color-dark-pink-3    : #571757;
+@color-dark-pink-4    : #832283;
+@color-dark-pink-5    : #ae2eae;
+@color-dark-pink-6    : #da39da;
+@color-dark-pink-7    : #e161e1;
+@color-dark-pink-8    : #e988e9;
+@color-dark-pink-9    : #f0b0f0;
+@color-dark-pink-10   : #f8d7f8;
+@color-dark-rose-1    : #18040e;
+@color-dark-rose-2    : #30091c;
+@color-dark-rose-3    : #601239;
+@color-dark-rose-4    : #901a55;
+@color-dark-rose-5    : #c02372;
+@color-dark-rose-6    : #f02c8e;
+@color-dark-rose-7    : #f356a5;
+@color-dark-rose-8    : #f680bb;
+@color-dark-rose-9    : #f9abd2;
+@color-dark-rose-10   : #fcd5e8;
+@color-dark-black     : #000000;
+@color-dark-white     : #ffffff;
+@color-dark-gray-1    : rgba(var(--color-dark-gray-10), 0.04);
+@color-dark-gray-2    : rgba(var(--color-dark-gray-10), 0.08);
+@color-dark-gray-3    : rgba(var(--color-dark-gray-10), 0.12);
+@color-dark-gray-4    : rgba(var(--color-dark-gray-10), 0.2);
+@color-dark-gray-5    : rgba(var(--color-dark-gray-10), 0.25);
+@color-dark-gray-6    : rgba(var(--color-dark-gray-10), 0.45);
+@color-dark-gray-7    : rgba(var(--color-dark-gray-10), 0.65);
+@color-dark-gray-8    : rgba(var(--color-dark-gray-10), 0.85);
+@color-dark-gray-9    : rgba(var(--color-dark-gray-10), 0.9);
+@color-dark-gray-10   : rgba(var(--color-dark-white), 1);
+
+//主题色
+@color-dark-primary-bg          : rgba(var(--color-dark-blue-1), 1);
+@color-dark-primary-bg-hover    : rgba(var(--color-dark-blue-2), 1);
+@color-dark-primary-border      : rgba(var(--color-dark-blue-3), 1);
+@color-dark-primary-border-hover: rgba(var(--color-dark-blue-4), 1);
+@color-dark-primary-hover       : rgba(var(--color-dark-blue-5), 1);
+@color-dark-primary-base        : rgba(var(--color-dark-blue-6), 1);
+@color-dark-primary-active      : rgba(var(--color-dark-blue-7), 1);
+@color-dark-primary-text-hover  : rgba(var(--color-dark-blue-8), 1);
+@color-dark-primary-text        : rgba(var(--color-dark-blue-9), 1);
+@color-dark-primary-text-active : rgba(var(--color-dark-blue-10), 1);
+@color-dark-danger-bg           : rgba(var(--color-dark-red-1), 1);
+@color-dark-danger-bg-hover     : rgba(var(--color-dark-red-2), 1);
+@color-dark-danger-border       : rgba(var(--color-dark-red-3), 1);
+@color-dark-danger-border-hover : rgba(var(--color-dark-red-4), 1);
+@color-dark-danger-hover        : rgba(var(--color-dark-red-5), 1);
+@color-dark-danger-base         : rgba(var(--color-dark-red-6), 1);
+@color-dark-danger-active       : rgba(var(--color-dark-red-7), 1);
+@color-dark-danger-text-hover   : rgba(var(--color-dark-red-8), 1);
+@color-dark-danger-text         : rgba(var(--color-dark-red-9), 1);
+@color-dark-danger-text-active  : rgba(var(--color-dark-red-10), 1);
+@color-dark-warning-bg          : rgba(var(--color-dark-gold-1), 1);
+@color-dark-warning-bg-hover    : rgba(var(--color-dark-gold-2), 1);
+@color-dark-warning-border      : rgba(var(--color-dark-gold-3), 1);
+@color-dark-warning-border-hover: rgba(var(--color-dark-gold-4), 1);
+@color-dark-warning-hover       : rgba(var(--color-dark-gold-5), 1);
+@color-dark-warning-base        : rgba(var(--color-dark-gold-6), 1);
+@color-dark-warning-active      : rgba(var(--color-dark-gold-7), 1);
+@color-dark-warning-text-hover  : rgba(var(--color-dark-gold-8), 1);
+@color-dark-warning-text        : rgba(var(--color-dark-gold-9), 1);
+@color-dark-warning-text-active : rgba(var(--color-dark-gold-10), 1);
+@color-dark-success-bg          : rgba(var(--color-dark-green-1), 1);
+@color-dark-success-bg-hover    : rgba(var(--color-dark-green-2), 1);
+@color-dark-success-border      : rgba(var(--color-dark-green-3), 1);
+@color-dark-success-border-hover: rgba(var(--color-dark-green-4), 1);
+@color-dark-success-hover       : rgba(var(--color-dark-green-5), 1);
+@color-dark-success-base        : rgba(var(--color-dark-green-6), 1);
+@color-dark-success-active      : rgba(var(--color-dark-green-7), 1);
+@color-dark-success-text-hover  : rgba(var(--color-dark-green-8), 1);
+@color-dark-success-text        : rgba(var(--color-dark-green-9), 1);
+@color-dark-success-text-active : rgba(var(--color-dark-green-10), 1);
+@color-dark-info-bg             : rgba(var(--color-dark-primary-bg), 1);
+@color-dark-info-bg-hover       : rgba(var(--color-dark-primary-bg-hover), 1);
+@color-dark-info-border         : rgba(var(--color-dark-primary-border), 1);
+@color-dark-info-border-hover   : rgba(var(--color-dark-primary-border-hover), 1);
+@color-dark-info-hover          : rgba(var(--color-dark-primary-hover), 1);
+@color-dark-info-base           : rgba(var(--color-dark-primary-base), 1);
+@color-dark-info-active         : rgba(var(--color-dark-primary-active), 1);
+@color-dark-info-text-hover     : rgba(var(--color-dark-primary-text-hover), 1);
+@color-dark-info-text           : rgba(var(--color-dark-primary-text), 1);
+@color-dark-info-text-active    : rgba(var(--color-dark-primary-text-active), 1);
+@color-dark-bg-floor            : #010609;
+@color-dark-bg-container        : #0E1318;
+@color-dark-bg-elevated         : #1A2226;
+@color-dark-bg-drop             : #282F34;
+@color-dark-bg-top              : #353D41;
+@color-dark-text-title          : rgba(var(--color-dark-gray-9), 1);
+@color-dark-text-label          : rgba(var(--color-dark-gray-7), 1);
+@color-dark-text-description    : rgba(var(--color-dark-gray-6), 1);
+@color-dark-text-disabled       : rgba(var(--color-dark-gray-5), 1);
+@color-dark-text-inverse        : rgba(var(--color-dark-white), 1);
+@color-dark-line-border         : rgba(var(--color-dark-gray-4), 1);
+@color-dark-line-split          : rgba(var(--color-dark-gray-3), 1);
+@color-dark-line-dark           : rgba(var(--color-dark-gray-2), 1);
+@color-dark-fill-white          : rgba(var(--color-dark-gray-1), 1);
+@color-dark-fill-bg             : rgba(var(--color-dark-gray-1), 1);
+@color-dark-fill-base           : rgba(var(--color-dark-gray-2), 1);
+@color-dark-fill-base-hover     : rgba(var(--color-dark-gray-3), 1);
+@color-dark-fill-base-active    : rgba(var(--color-dark-gray-4), 1);
+@color-dark-comp-menu-left      : #0E1318;
+@color-dark-comp-menu-right     : #1A2226;
+@color-dark-comp-modal-mask     : rgba(var(--color-dark-gray-6), 1);
+@color-dark-comp-tooltip        : rgba(var(--color-dark-bg-drop), 1);
+@color-dark-comp-rate-star      : rgba(var(--color-dark-gold-6), 1);
+
+
+//阴影
+
+@shadow-handle        : 0px 0px 1px rgba(0, 0, 0, 0.03), 0px 2px 6px rgba(0, 0, 0, 0.1);
+@shadow-drop          : 0px 0px 1px rgba(0, 0, 0, 0.03), 0px 4px 12px rgba(0, 0, 0, 0.1);
+@shadow-drop-secondary: 0px 0px 1px rgba(0, 0, 0, 0.03), 0px 8px 24px rgba(0, 0, 0, 0.1);
+@shadow-focus-primary : 0px 0px 0px 2px rgba(var(--color-dark-primary-bg), 1);
+@shadow-focus-danger  : 0px 0px 0px 2px rgba(var(--color-dark-danger-bg), 1);
+@shadow-focus-warning : 0px 0px 0px 2px rgba(var(--color-dark-warning-bg), 1);
+
+
+//间距
+
+@padding-none: 0px;
+@padding-xs  : 4px;
+@padding-sm  : 8px;
+@padding-ms  : 12px;
+@padding-md  : 16px;
+@padding-ml  : 20px;
+@padding-lg  : 24px;
+@padding-xl  : 32px;
+@padding-xxl : 48px;
+
+
+//尺寸
+
+@sizing-control-height-small : 24px;
+@sizing-control-height-medium: 32px;
+@sizing-control-height-large : 40px;
+@sizing-icon-width-xs        : 8px;
+@sizing-icon-width-sm        : 12px;
+@sizing-icon-width-md        : 16px;
+@sizing-icon-width-lg        : 20px;
+@sizing-icon-width-xl        : 24px;
+@sizing-icon-width-xxl       : 32px;
+@sizing-icon-width-xxxl      : 48px;
+
+
+//圆角
+
+@radius-none  : 0px;
+@radius-small : 2px;
+@radius-medium: 4px;
+@radius-large : 8px;
+@radius-full  : 9999px;
+
+
+//描边宽度
+
+@border-width-none       : 0px;
+@border-width-base       : 1px;
+@border-width-tabs-active: 2px;
+
+
+//字体
+
+@font-family          : "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+@code-family          : Consolas,         Menlo,     Courier,       monospace;
+@font-weight-strong   : 600;
+@font-size-small      : 12px;
+@font-size-base       : 14px;
+@font-size-large      : 16px;
+@font-size-xlarge     : 20px;
+@font-size-heading-1  : 38px;
+@font-size-heading-2  : 30px;
+@font-size-heading-3  : 24px;
+@font-size-heading-4  : 20px;
+@font-size-heading-5  : 16px;
+@line-height-small    : ceil(@font-size-small + 8px);
+@line-height-base     : ceil(@font-size-base + 8px);
+@line-height-large    : ceil(@font-size-large + 8px);
+@line-height-xlarge   : ceil(@font-size-xlarge + 8px);
+@line-height-heading-1: ceil(@font-size-heading-1 + 8px);
+@line-height-heading-2: ceil(@font-size-heading-2 + 8px);
+@line-height-heading-3: ceil(@font-size-heading-3 + 8px);
+@line-height-heading-4: ceil(@font-size-heading-4 + 8px);
+@line-height-heading-5: ceil(@font-size-heading-5 + 8px);
+
+
+// Z-index
+
+@zindex-portal         : 1;
+@zindex-affix          : 10;
+@zindex-backtop        : 10;
+@zindex-badge          : 10;
+@zindex-table-fixed    : 101;
+@zindex-modal          : 1000;
+@zindex-modal-mask     : 1000;
+@zindex-toast          : 1010;
+@zindex-notification   : 1010;
+@zindex-popover        : 1030;
+
+
+// 动画
+
+@transition-duration-none            : 0ms;
+@transition-duration-fast            : 100ms;
+@transition-duration-normal          : 200ms;
+@transition-duration-slower          : 300ms;
+@transition-function-linear          : linear;
+@transition-function-ease            : ease;
+@transition-function-ease-in         : ease-in;
+@transition-function-ease-out        : ease-out;
+@transition-function-ease-in-out     : ease-in-out;
+@transition-delay-none               : 0ms;
+@transition-delay-fast               : 800ms;
+@transition-delay-normal             : 3000ms;
+@transition-delay-slower             : 5000ms;
+@transform-scale-small               : scale(1,1.2);
+@transform-scale-medium              : scale(1,1.5);
+@transform-scale-large               : scale(1,2);
+@transform-rotate-none               : rotate(0deg);
+@transform-rotate-clockwise90deg     : rotate(90deg);
+@transform-rotate-clockwise180deg    : rotate(180deg);
+@transform-rotate-clockwise360deg    : rotate(360deg);
+@transform-rotate-anticlockwise90deg : rotate(-90deg);
+@transform-rotate-anticlockwise180deg: rotate(-180deg);
+@transform-rotate-anticlockwise360deg: rotate(-360deg);
+
