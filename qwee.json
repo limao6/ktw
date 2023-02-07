@@ -1,9 +1,4 @@
 {
-  "color-base": {
-    "black": {
-      "value": "#000",
-      "type": "color"
-    },
     "white": {
       "value": "#fff",
       "type": "color"
